@@ -1,0 +1,8 @@
+
+    sequenceDiagram
+        participant U as User
+        participant P as PromptGPT
+        U->>P: Input user_prompt
+        P->>P: generate_prompt(user_prompt)
+        P-->>U: Return optimized_prompt
+    

@@ -1,0 +1,4 @@
+flask==1.1.2
+openai==0.27.0
+docker==5.0.3
+react==17.0.2
